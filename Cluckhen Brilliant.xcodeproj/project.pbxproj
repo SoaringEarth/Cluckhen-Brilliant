@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE423EFE15D129780072E5B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE423EFD15D129780072E5B2 /* UIKit.framework */; };
+		CE423F0015D129780072E5B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE423EFF15D129780072E5B2 /* Foundation.framework */; };
+		CE423F0215D129780072E5B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE423F0115D129780072E5B2 /* CoreGraphics.framework */; };
+		CE423F0815D129780072E5B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE423F0615D129780072E5B2 /* InfoPlist.strings */; };
+		CE423F0A15D129780072E5B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE423F0915D129780072E5B2 /* main.m */; };
+		CE423F0E15D129780072E5B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE423F0D15D129780072E5B2 /* AppDelegate.m */; };
+		CE423F1115D129780072E5B2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE423F0F15D129780072E5B2 /* MainStoryboard.storyboard */; };
+		CE423F1415D129780072E5B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE423F1315D129780072E5B2 /* ViewController.m */; };
+		CE423F1C15D129780072E5B2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE423F1B15D129780072E5B2 /* SenTestingKit.framework */; };
+		CE423F1D15D129780072E5B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE423EFD15D129780072E5B2 /* UIKit.framework */; };
+		CE423F1E15D129780072E5B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE423EFF15D129780072E5B2 /* Foundation.framework */; };
+		CE423F2615D129780072E5B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE423F2415D129780072E5B2 /* InfoPlist.strings */; };
+		CE423F2915D129780072E5B2 /* Cluckhen_BrilliantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE423F2815D129780072E5B2 /* Cluckhen_BrilliantTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE423F1F15D129780072E5B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE423EF015D129780072E5B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE423EF815D129780072E5B2;
+			remoteInfo = "Cluckhen Brilliant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE423EF915D129780072E5B2 /* Cluckhen Brilliant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cluckhen Brilliant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE423EFD15D129780072E5B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE423EFF15D129780072E5B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE423F0115D129780072E5B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE423F0515D129780072E5B2 /* Cluckhen Brilliant-Info.plist */ = {isa = PBXFileReference; path = "Cluckhen Brilliant-Info.plist"; sourceTree = "<group>"; };
+		CE423F0715D129780072E5B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE423F0915D129780072E5B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE423F0B15D129780072E5B2 /* Cluckhen Brilliant-Prefix.pch */ = {isa = PBXFileReference; path = "Cluckhen Brilliant-Prefix.pch"; sourceTree = "<group>"; };
+		CE423F0C15D129780072E5B2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE423F0D15D129780072E5B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE423F1015D129780072E5B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE423F1215D129780072E5B2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CE423F1315D129780072E5B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE423F1A15D129780072E5B2 /* Cluckhen BrilliantTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cluckhen BrilliantTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE423F1B15D129780072E5B2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE423F2315D129780072E5B2 /* Cluckhen BrilliantTests-Info.plist */ = {isa = PBXFileReference; path = "Cluckhen BrilliantTests-Info.plist"; sourceTree = "<group>"; };
+		CE423F2515D129780072E5B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE423F2715D129780072E5B2 /* Cluckhen_BrilliantTests.h */ = {isa = PBXFileReference; path = Cluckhen_BrilliantTests.h; sourceTree = "<group>"; };
+		CE423F2815D129780072E5B2 /* Cluckhen_BrilliantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cluckhen_BrilliantTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE423EF615D129780072E5B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE423EFE15D129780072E5B2 /* UIKit.framework in Frameworks */,
+				CE423F0015D129780072E5B2 /* Foundation.framework in Frameworks */,
+				CE423F0215D129780072E5B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE423F1615D129780072E5B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE423F1C15D129780072E5B2 /* SenTestingKit.framework in Frameworks */,
+				CE423F1D15D129780072E5B2 /* UIKit.framework in Frameworks */,
+				CE423F1E15D129780072E5B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE423EEE15D129780072E5B2 = {
+			isa = PBXGroup;
+			children = (
+				CE423F0315D129780072E5B2 /* Cluckhen Brilliant */,
+				CE423F2115D129780072E5B2 /* Cluckhen BrilliantTests */,
+				CE423EFC15D129780072E5B2 /* Frameworks */,
+				CE423EFA15D129780072E5B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE423EFA15D129780072E5B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE423EF915D129780072E5B2 /* Cluckhen Brilliant.app */,
+				CE423F1A15D129780072E5B2 /* Cluckhen BrilliantTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE423EFC15D129780072E5B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE423EFD15D129780072E5B2 /* UIKit.framework */,
+				CE423EFF15D129780072E5B2 /* Foundation.framework */,
+				CE423F0115D129780072E5B2 /* CoreGraphics.framework */,
+				CE423F1B15D129780072E5B2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE423F0315D129780072E5B2 /* Cluckhen Brilliant */ = {
+			isa = PBXGroup;
+			children = (
+				CE423F0C15D129780072E5B2 /* AppDelegate.h */,
+				CE423F0D15D129780072E5B2 /* AppDelegate.m */,
+				CE423F0F15D129780072E5B2 /* MainStoryboard.storyboard */,
+				CE423F1215D129780072E5B2 /* ViewController.h */,
+				CE423F1315D129780072E5B2 /* ViewController.m */,
+				CE423F0415D129780072E5B2 /* Supporting Files */,
+			);
+			path = "Cluckhen Brilliant";
+			sourceTree = "<group>";
+		};
+		CE423F0415D129780072E5B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE423F0515D129780072E5B2 /* Cluckhen Brilliant-Info.plist */,
+				CE423F0615D129780072E5B2 /* InfoPlist.strings */,
+				CE423F0915D129780072E5B2 /* main.m */,
+				CE423F0B15D129780072E5B2 /* Cluckhen Brilliant-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE423F2115D129780072E5B2 /* Cluckhen BrilliantTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE423F2715D129780072E5B2 /* Cluckhen_BrilliantTests.h */,
+				CE423F2815D129780072E5B2 /* Cluckhen_BrilliantTests.m */,
+				CE423F2215D129780072E5B2 /* Supporting Files */,
+			);
+			path = "Cluckhen BrilliantTests";
+			sourceTree = "<group>";
+		};
+		CE423F2215D129780072E5B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE423F2315D129780072E5B2 /* Cluckhen BrilliantTests-Info.plist */,
+				CE423F2415D129780072E5B2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE423EF815D129780072E5B2 /* Cluckhen Brilliant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE423F2C15D129780072E5B2 /* Build configuration list for PBXNativeTarget "Cluckhen Brilliant" */;
+			buildPhases = (
+				CE423EF515D129780072E5B2 /* Sources */,
+				CE423EF615D129780072E5B2 /* Frameworks */,
+				CE423EF715D129780072E5B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cluckhen Brilliant";
+			productName = "Cluckhen Brilliant";
+			productReference = CE423EF915D129780072E5B2 /* Cluckhen Brilliant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE423F1915D129780072E5B2 /* Cluckhen BrilliantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE423F2F15D129780072E5B2 /* Build configuration list for PBXNativeTarget "Cluckhen BrilliantTests" */;
+			buildPhases = (
+				CE423F1515D129780072E5B2 /* Sources */,
+				CE423F1615D129780072E5B2 /* Frameworks */,
+				CE423F1715D129780072E5B2 /* Resources */,
+				CE423F1815D129780072E5B2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE423F2015D129780072E5B2 /* PBXTargetDependency */,
+			);
+			name = "Cluckhen BrilliantTests";
+			productName = "Cluckhen BrilliantTests";
+			productReference = CE423F1A15D129780072E5B2 /* Cluckhen BrilliantTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE423EF015D129780072E5B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CE423EF315D129780072E5B2 /* Build configuration list for PBXProject "Cluckhen Brilliant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE423EEE15D129780072E5B2;
+			productRefGroup = CE423EFA15D129780072E5B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE423EF815D129780072E5B2 /* Cluckhen Brilliant */,
+				CE423F1915D129780072E5B2 /* Cluckhen BrilliantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE423EF715D129780072E5B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE423F0815D129780072E5B2 /* InfoPlist.strings in Resources */,
+				CE423F1115D129780072E5B2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE423F1715D129780072E5B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE423F2615D129780072E5B2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE423F1815D129780072E5B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE423EF515D129780072E5B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE423F0A15D129780072E5B2 /* main.m in Sources */,
+				CE423F0E15D129780072E5B2 /* AppDelegate.m in Sources */,
+				CE423F1415D129780072E5B2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE423F1515D129780072E5B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE423F2915D129780072E5B2 /* Cluckhen_BrilliantTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE423F2015D129780072E5B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE423EF815D129780072E5B2 /* Cluckhen Brilliant */;
+			targetProxy = CE423F1F15D129780072E5B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE423F0615D129780072E5B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE423F0715D129780072E5B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE423F0F15D129780072E5B2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE423F1015D129780072E5B2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CE423F2415D129780072E5B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE423F2515D129780072E5B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE423F2A15D129780072E5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE423F2B15D129780072E5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE423F2D15D129780072E5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cluckhen Brilliant/Cluckhen Brilliant-Prefix.pch";
+				INFOPLIST_FILE = "Cluckhen Brilliant/Cluckhen Brilliant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE423F2E15D129780072E5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cluckhen Brilliant/Cluckhen Brilliant-Prefix.pch";
+				INFOPLIST_FILE = "Cluckhen Brilliant/Cluckhen Brilliant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE423F3015D129780072E5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cluckhen Brilliant.app/Cluckhen Brilliant";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cluckhen Brilliant/Cluckhen Brilliant-Prefix.pch";
+				INFOPLIST_FILE = "Cluckhen BrilliantTests/Cluckhen BrilliantTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CE423F3115D129780072E5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cluckhen Brilliant.app/Cluckhen Brilliant";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cluckhen Brilliant/Cluckhen Brilliant-Prefix.pch";
+				INFOPLIST_FILE = "Cluckhen BrilliantTests/Cluckhen BrilliantTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE423EF315D129780072E5B2 /* Build configuration list for PBXProject "Cluckhen Brilliant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE423F2A15D129780072E5B2 /* Debug */,
+				CE423F2B15D129780072E5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE423F2C15D129780072E5B2 /* Build configuration list for PBXNativeTarget "Cluckhen Brilliant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE423F2D15D129780072E5B2 /* Debug */,
+				CE423F2E15D129780072E5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE423F2F15D129780072E5B2 /* Build configuration list for PBXNativeTarget "Cluckhen BrilliantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE423F3015D129780072E5B2 /* Debug */,
+				CE423F3115D129780072E5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE423EF015D129780072E5B2 /* Project object */;
+}
