@@ -6,16 +6,24 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+// The Application Delegate is the class that receives application-level messages, including the applicationDidFinishLaunching message most commonly used to initiate the creation of other views.
+
+// This file is similar to 'main()' from other languages.
+
 #import "AppDelegate.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
 
+#pragma mark Auto-Generated Methods
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     return YES;
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -38,11 +46,6 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
 @end

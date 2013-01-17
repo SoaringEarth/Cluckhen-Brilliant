@@ -6,6 +6,9 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+// This is the start screen the user first sees.
+// it doesnt do anything apart from get tapped.
+
 #import "ViewController.h"
 
 @interface ViewController ()
